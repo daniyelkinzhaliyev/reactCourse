@@ -1,25 +1,16 @@
 import './App.css';
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import Profile from './components/Profile';
 
 const App = () => {
   return (
-    <div className='App'>
-    <Header />
-    <h1>Hello world</h1>
+    <div className='app-wrapper'>
+      <Header />
+      <Navbar />
+      <Profile />
     </div>
   )
-}
-
-const Header = () => {
-  return(
-    <div>
-      <a href=''>Home</a>
-      <a href=''>Gallery</a>
-      <a href=''>About us</a>
-    </div>
-
-
-  )
-  
 }
 
 export default App;
